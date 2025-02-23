@@ -3,6 +3,10 @@
 -import(drop, [fall_velocity/1]).
 -import(convert, [mps_to_mph/1]).
 
+%% Author: William Z Chadwick
+%% Date Created: 02/22/2025
+%% Date Modified: 02/22/2025
+%% Description:
 %% This code is based on the book, Introducing Erlang, by @author Simon St.Laurent <simonstl@simonstl.com> [httpL//simonstl.com]
 %% These initial comments are similar to (based on) his comments in the book on page 21.
 %% @doc Functions calculating velocities achieved by objects dropped in a vacuum.
