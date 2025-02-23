@@ -1,0 +1,5 @@
+@author William Z Chadwick <CardioLeo@gmail.com> [https://github.com/CardioLeo]
+@doc Functions for calculating and converting velocities, based on the book, Introducing Erlang
+@reference from <a href="http://shop.oreily.com/product/0636920025818.do" >Introducing Erlang</a>, O'Reilly Media, Inc., 2012.
+@copywright 2012 Simon St.Laurent
+@version 0.1
