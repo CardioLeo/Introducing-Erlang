@@ -1,0 +1,27 @@
+Erlang/OTP 26 [erts-14.2.5.7] [source] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:1] [jit:ns]
+
+Eshell V14.2.5.7 (press Ctrl+G to abort, type help(). for help)
+1> c(drop).
+drop.erl:1:9: bad module declaration
+%    1| -module(drop)
+%     |         ^
+
+drop.erl:4:1: no module definition
+%    4| fall_velocity(Distance) -> math:sqrt(2 * 9.8 * Distance).
+%     | ^
+
+drop.erl:4:1: Warning: function fall_velocity/1 is unused
+%    4| fall_velocity(Distance) -> math:sqrt(2 * 9.8 * Distance).
+%     | ^
+
+drop.erl:6:1: Warning: function mps_to_mph/1 is unused
+%    6| mps_to_mph(Mps) -> 2.23693629 * Mps.
+%     | ^
+
+drop.erl:8:1: Warning: function mps_to_kph/1 is unused
+%    8| mps_to_kph(Mps) -> 3.6 * Mps.
+%     | ^
+
+error
+2> q().
+ok
