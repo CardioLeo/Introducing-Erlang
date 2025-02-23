@@ -7,13 +7,14 @@
 %% Date Created: 02/22/2025
 %% Date Modified: 02/22/2025
 %% Description:
-%% This code is based on the book, Introducing Erlang, by @author Simon St.Laurent <simonstl@simonstl.com> [httpL//simonstl.com]
+%% This code is based on the book, Introducing Erlang, by @ author Simon St.Laurent <simonstl@simonstl.com> [httpL//simonstl.com]
 %% These initial comments are similar to (based on) his comments in the book on page 21.
-%% @doc Functions calculating velocities achieved by objects dropped in a vacuum.
-%% @reference from <a href "http://shop/oreilly.com/product/0636920025818.do" >Introducing Erlang</a>,
+%% @ doc Functions calculating velocities achieved by objects dropped in a vacuum.
+%% @ reference from <a href "http://shop/oreilly.com/product/0636920025818.do" >Introducing Erlang</a>,
 %% O'Reilly Media, Inc., 2012.
-%% @copyright 2012 by Simon St.Laurent
-%% @version 0.1
+%% @ copyright 2012 by Simon St.Laurent
+%% @ version 0.1
+%% [Spaces added after @ symbol because edoc wouldn't let it work otherwise!]
 
 %%%
 %%% code originally ran as:
