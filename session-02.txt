@@ -1,0 +1,117 @@
+Erlang/OTP 26 [erts-14.2.5.7] [source] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:1] [jit:ns]
+
+Eshell V14.2.5.7 (press Ctrl+G to abort, type help(). for help)
+1> ls().
+.git              README.md         drop.beam         drop.erl          
+geometry.beam     geometry.erl      session-1.txt     
+ok
+2> pwd().
+/home/echocslsk/Documents/Coding/Languages/Erlang/Introducing-Erlang
+ok
+3> cd(..).
+* 1:4: syntax error before: '..'
+3> cd("..").
+/home/echocslsk/Documents/Coding/Languages/Erlang
+ok
+4> ls().
+Armstrongs-Erlang-Book                    
+Building-Web-Applications-with-Erlang     
+Introducing-Erlang                        
+Seven-in-Seven-Erlang                     
+
+ok
+5> cd("Introducing-Erlang/").
+/home/echocslsk/Documents/Coding/Languages/Erlang/Introducing-Erlang
+ok
+6> ls().
+.git              README.md         drop.beam         drop.erl          
+geometry.beam     geometry.erl      session-1.txt     
+ok
+7> 2+2.
+4
+8> 27-14.
+13
+9> 35*42023943
+   .l
+   .
+* 2:1: syntax error before: '.'
+9> 35*42023943.
+1470838005
+10> 200/15.
+13.333333333333334
+11> 200 div 15.
+13
+12> 200 rem 15.
+5
+13> 3*(4+15).
+57
+14> round(200/15)
+    .
+13
+15> 4*v(8).
+52
+16> math:sin(0).
+0.0
+17> math:cos(math:pi()).
+-1.0
+18> math:cos(2*math:pi()).
+1.0
+19> math:sin(math:pi()).
+1.2246467991473532e-16
+20> 2.923e127.
+2.923e127
+21> 2#1010111.
+87
+22> 16#cafe.
+51966
+23> 18#gaffe.
+1743080
+24> -1234.
+-1234
+25> -16#cafe.
+-51966
+26> 18#gaffe.
+1743080
+27> N=1.
+1
+28> N.
+1
+29> N=2.
+** exception error: no match of right hand side value 2
+30> M=N+2.
+3
+31> M.
+3
+32> M+N.
+4
+33> N=2-1.
+1
+34> N=15 div (3*5).
+1
+35> Number=N*4+N.
+5
+36> 6*Number.
+30
+37> Number_Times_Six=Number*6.
+30
+38> Number_Times_Six.
+30
+39> f(Number_Times_Six).
+ok
+40> Number_Times_Six>
+    .
+* 2:1: syntax error before: '.'
+40> Number_Times_Six.
+* 1:1: variable 'Number_Times_Six' is unbound
+41> b().
+M = 3
+N = 1
+Number = 5
+ok
+42> f().
+ok
+43> b().
+ok
+44> q().
+ok
+45> [echocslsk@fedora Introducing-Erlang]$ 
